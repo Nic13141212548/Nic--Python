@@ -49,3 +49,6 @@ set mapreduce.job.name=a_jf_csf_jc_detail_daily_a_d_02;
 use app;
 TRUNCATE TABLE app.a_jf_finmod_scf_incom_fee_i_m;
 insert into table app.a_jf_finmod_scf_incom_fee_i_m partition(dt) select '2018-03','ALL','合计','1','','0','1','实际发生','44506.91','87.67%','3313.94','4.22','3318.16','28.24%','1067.4','1.07%','11.07','1.87%','10.41','1088.88','0.08','2018-03-01' from tmp.dual;
+
+
+#ceshi githube bianji
